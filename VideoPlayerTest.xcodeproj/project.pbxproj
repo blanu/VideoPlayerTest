@@ -15,6 +15,8 @@
 		CA9CAAB22579CD05001B0583 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9CAA872579CD04001B0583 /* ContentView.swift */; };
 		CA9CAAB32579CD05001B0583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA9CAA882579CD04001B0583 /* Assets.xcassets */; };
 		CA9CAAB42579CD05001B0583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA9CAA882579CD04001B0583 /* Assets.xcassets */; };
+		CA9CAAC82579D2CC001B0583 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9CAAC72579D2CC001B0583 /* PlayerController.swift */; };
+		CA9CAAC92579D2CC001B0583 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9CAAC72579D2CC001B0583 /* PlayerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		CA9CAAA82579CD05001B0583 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA9CAAAC2579CD05001B0583 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		CA9CAAAE2579CD05001B0583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA9CAAC72579D2CC001B0583 /* PlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,7 @@
 			children = (
 				CA9CAA862579CD04001B0583 /* VideoPlayerTestApp.swift */,
 				CA9CAA872579CD04001B0583 /* ContentView.swift */,
+				CA9CAAC72579D2CC001B0583 /* PlayerController.swift */,
 				CA9CAA882579CD04001B0583 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -310,6 +314,7 @@
 			files = (
 				CA9CAAB12579CD05001B0583 /* ContentView.swift in Sources */,
 				CA9CAAAF2579CD05001B0583 /* VideoPlayerTestApp.swift in Sources */,
+				CA9CAAC82579D2CC001B0583 /* PlayerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +324,7 @@
 			files = (
 				CA9CAAB22579CD05001B0583 /* ContentView.swift in Sources */,
 				CA9CAAB02579CD05001B0583 /* VideoPlayerTestApp.swift in Sources */,
+				CA9CAAC92579D2CC001B0583 /* PlayerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
